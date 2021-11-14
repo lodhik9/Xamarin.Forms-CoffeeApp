@@ -1,0 +1,48 @@
+C:\Users\M.K Lodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\bin\Debug\netstandard2.0\MyFirstApp.deps.json
+C:\Users\M.K Lodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\bin\Debug\netstandard2.0\MyFirstApp.dll
+C:\Users\M.K Lodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\bin\Debug\netstandard2.0\ref\MyFirstApp.dll
+C:\Users\M.K Lodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\bin\Debug\netstandard2.0\MyFirstApp.pdb
+C:\Users\M.K Lodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.csproj.AssemblyReference.cache
+C:\Users\M.K Lodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M.K Lodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\M.K Lodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\M.K Lodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.AssemblyInfoInputs.cache
+C:\Users\M.K Lodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.AssemblyInfo.cs
+C:\Users\M.K Lodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.csproj.CoreCompileInputs.cache
+C:\Users\M.K Lodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\M.K Lodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.dll
+C:\Users\M.K Lodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\ref\MyFirstApp.dll
+C:\Users\M.K Lodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.pdb
+C:\Users\M.K Lodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\Views\CoffeEquipmentPage.xaml.g.cs
+C:\Users\MuhammadLodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\bin\Debug\netstandard2.0\MyFirstApp.deps.json
+C:\Users\MuhammadLodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\bin\Debug\netstandard2.0\MyFirstApp.dll
+C:\Users\MuhammadLodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\bin\Debug\netstandard2.0\ref\MyFirstApp.dll
+C:\Users\MuhammadLodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\bin\Debug\netstandard2.0\MyFirstApp.pdb
+C:\Users\MuhammadLodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.csproj.AssemblyReference.cache
+C:\Users\MuhammadLodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MuhammadLodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\MuhammadLodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\MuhammadLodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\Views\CoffeEquipmentPage.xaml.g.cs
+C:\Users\MuhammadLodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.AssemblyInfoInputs.cache
+C:\Users\MuhammadLodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.AssemblyInfo.cs
+C:\Users\MuhammadLodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.csproj.CoreCompileInputs.cache
+C:\Users\MuhammadLodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\MuhammadLodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.dll
+C:\Users\MuhammadLodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\ref\MyFirstApp.dll
+C:\Users\MuhammadLodhi\source\repos\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.pdb
+C:\Users\MuhammadLodhi\Full-Stack-Developer\MobileApp\Xamarin\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.csproj.AssemblyReference.cache
+C:\Users\MuhammadLodhi\Full-Stack-Developer\MobileApp\Xamarin\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MuhammadLodhi\Full-Stack-Developer\MobileApp\Xamarin\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\MuhammadLodhi\Full-Stack-Developer\MobileApp\Xamarin\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\MuhammadLodhi\Full-Stack-Developer\MobileApp\Xamarin\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\Views\CoffeEquipmentPage.xaml.g.cs
+C:\Users\MuhammadLodhi\Full-Stack-Developer\MobileApp\Xamarin\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.AssemblyInfoInputs.cache
+C:\Users\MuhammadLodhi\Full-Stack-Developer\MobileApp\Xamarin\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.AssemblyInfo.cs
+C:\Users\MuhammadLodhi\Full-Stack-Developer\MobileApp\Xamarin\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.csproj.CoreCompileInputs.cache
+C:\Users\MuhammadLodhi\Full-Stack-Developer\MobileApp\Xamarin\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.dll
+C:\Users\MuhammadLodhi\Full-Stack-Developer\MobileApp\Xamarin\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\ref\MyFirstApp.dll
+C:\Users\MuhammadLodhi\Full-Stack-Developer\MobileApp\Xamarin\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\MyFirstApp.pdb
+C:\Users\MuhammadLodhi\Full-Stack-Developer\MobileApp\Xamarin\MyFirstApp\MyFirstApp\MyFirstApp\bin\Debug\netstandard2.0\MyFirstApp.deps.json
+C:\Users\MuhammadLodhi\Full-Stack-Developer\MobileApp\Xamarin\MyFirstApp\MyFirstApp\MyFirstApp\bin\Debug\netstandard2.0\MyFirstApp.dll
+C:\Users\MuhammadLodhi\Full-Stack-Developer\MobileApp\Xamarin\MyFirstApp\MyFirstApp\MyFirstApp\bin\Debug\netstandard2.0\ref\MyFirstApp.dll
+C:\Users\MuhammadLodhi\Full-Stack-Developer\MobileApp\Xamarin\MyFirstApp\MyFirstApp\MyFirstApp\bin\Debug\netstandard2.0\MyFirstApp.pdb
+C:\Users\MuhammadLodhi\Full-Stack-Developer\MobileApp\Xamarin\MyFirstApp\MyFirstApp\MyFirstApp\obj\Debug\netstandard2.0\XamlC.stamp

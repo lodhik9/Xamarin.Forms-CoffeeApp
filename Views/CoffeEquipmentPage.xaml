@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewmodels="clr-namespace:MyFirstApp.ViewModels" xmlns:models="clr-namespace:MyFirstApp.Models"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             BackgroundColor="White"
+             x:Class="MyFirstApp.Views.CoffeEquipmentPage"
+             x:DataType="viewmodels:CoffeEquipmentViewModel"
+             x:Name="CoffeePage">
+    <!--Set the binding Context-->
+    <ContentPage.BindingContext>
+        <viewmodels:CoffeEquipmentViewModel/>
+    </ContentPage.BindingContext>
+
+    <!--We are creating a new itemSelectedEvent with its key-->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <xct:ItemSelectedEventArgsConverter 
+                x:Key="ItemSelectedEventArgsConverter"/>
+        </ResourceDictionary>
+        
+    </ContentPage.Resources>
+
+        <!--ListView already has a scrollView-->
+    <ListView SelectedItem="{Binding SelectedCoffee, Mode=TwoWay}"
+              CachingStrategy="RecycleElement"
+              BackgroundColor="Transparent"
+              ItemsSource="{Binding CoffeeGroups}"
+              IsGroupingEnabled="True"
+              GroupDisplayBinding="{Binding key}"
+              HasUnevenRows="True"
+              SeparatorVisibility="None"
+              IsPullToRefreshEnabled="True"
+              IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+              RefreshCommand="{Binding RefreshCommand}"
+              RefreshControlColor="red">
+        
+        <!--Turning Event into Command-->
+        <!--ItemSelected event will call SelectedCommand and then pass the ItemSelectedEventArgsConverter-->
+        <ListView.Behaviors>
+            <xct:EventToCommandBehavior
+                EventName="ItemSelected"
+                Command="{Binding SelectedCommand}"
+                EventArgsConverter="{StaticResource ItemSelectedEventArgsConverter}"/>
+        </ListView.Behaviors>
+
+        <!-- Put array of items which are observable-->
+        <!--
+        <ListView.ItemsSource>
+            <x:Array Type="{x:Type x:String}">
+                <x:String>Item One</x:String>
+                <x:String>Item Two</x:String>
+                <x:String>Item Three</x:String>
+            </x:Array>
+        </ListView.ItemsSource>
+        -->
+
+        
+        
+        <!-- Will give custome View Cell and dataBinding Properties-->
+        <ListView.ItemTemplate>
+            <DataTemplate x:DataType="models:Coffee">
+                <!-- CollectionView Does not have ViewCell-->
+                <ViewCell>
+                    <ViewCell.ContextActions>
+                        <MenuItem Text="Favourite" 
+                                  Command="{Binding
+                            Source={x:Reference CoffeePage},
+                            Path=BindingContext.FavouriteCommand}"
+                                 CommandParameter="{Binding .}" />
+                        <MenuItem Text="Delete" IsDestructive="True"/>
+                        
+                    </ViewCell.ContextActions>
+                    <Grid Padding="10">
+                        <Frame CornerRadius="20"
+                               HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="{Binding Image}" 
+                                       WidthRequest="66"></Image>
+                            <StackLayout>
+                        <Label  VerticalOptions="Center" 
+                                 FontSize="Large"
+                                Text="{Binding Name}"/>
+                        <Label  VerticalOptions="Center" 
+                                FontSize="Large"
+                                Text="{Binding Roaster}"/>
+                            </StackLayout>
+                                <Button Text="Favourite"
+                                        Command="{Binding
+                                    Source={RelativeSource
+                                    AncestorType={x:Type viewmodels:CoffeEquipmentViewModel}},
+                                    Path=FavouriteCommand}"
+                                        CommandParameter="{Binding .}"/>
+                            </StackLayout>
+                        </Frame>
+                        
+
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+        
+        <!--ListView Header-->
+        <ListView.Header>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Coffee of the world!"
+                       HorizontalOptions="Center" />
+            </StackLayout>
+        </ListView.Header>
+        
+        <!--ListView Footer-->
+        <ListView.Footer>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="Load More"/>
+            </StackLayout>
+        </ListView.Footer>
+
+    </ListView>
+</ContentPage>
